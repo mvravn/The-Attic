@@ -1,0 +1,32 @@
+﻿
+body {
+	padding-top: 5%;
+	font-family: 'Old Standard TT', serif;
+	font-size: 32px;
+	background-image: url(http://mvravn.dk/fcc_projects/images/weather_temp.jpg);
+}
+
+h1 {
+	font-size: 64px;
+	font-family: 'Poiret One', cursive;
+}
+
+button {
+	margin-top: 25px;
+	transition: opacity .5s;
+	opacity: .5;
+}
+
+button:hover {
+	transition: opacity .5s;
+	opacity: 1;
+}
+
+.card {
+	background: rgba(255,255,255,0.4);
+	border-radius: 25px;
+	padding: 25px;
+	margin: 10%;
+}
+
+

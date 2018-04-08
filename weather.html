@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<!--
+Objectives:
+- User Story: I can see the weather in my current location.
+- User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+- User Story: I can push a button to toggle between Fahrenheit and Celsius.
+- User Story: Change background to reflect temperature.
+-->
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Poiret+One" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!-- local CSS -->
+		<link rel="stylesheet" href="weather_stylesheet.css">
+	
+		<title>Local Weather Page</title>
+		
+	</head>
+	<body>
+		<div class="container-fluid">
+		<div class="card">
+			<div class = "row justify-content-center">
+				<div class = "col-xs-12">
+					<h1>Local Weather Page</h1>
+				</div>
+			</div>
+			<div class = "row justify-content-center">
+				<div class = "col-xs-12">
+					<span id="icon">target</span><br>
+				</div>
+			</div>
+			<div class = "row justify-content-center">
+				<div class = "col-xs-12">
+					<span id="location">target</span><br>
+				</div>	
+			</div>
+			<div class = "row justify-content-center">
+				<div class = "col-xs-12">
+					<span id="temperature">target</span>
+					<span id="description">target</span><br>
+				</div>	
+			</div>
+			<div class = "row justify-content-center">
+				<div class = "col-xs-12">
+					<button id="inF" type="button" class="btn btn-dark">In &#x2109;</button>
+					<button id="inC" type="button" style="display:none;" class="btn btn-dark">In &#x2103;</button>
+				</div>
+			</div>
+			</div>
+		</div>
+	
+		
+		
+		
+		
+
+		<!-- local script -->
+		<script type="text/javascript" src="weather_script.js"></script>
+		
+		<!-- for bootstrap: https://getbootstrap.com/docs/4.0/getting-started/introduction/ 
+		There's also a starter template for the lazy
+		Has a newer jQuery src
+		-->
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+
+</html>
